@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+	android:layout_height="match_parent" tools:context="${packageName}.${activityClass}">
+
+	<ImageView android:layout_width="match_parent" android:src="@drawable/birds"
+		android:scaleType="centerCrop" android:layout_height="match_parent" />
+
+
+
+	<RelativeLayout android:layout_width="match_parent"
+		android:layout_height="match_parent" android:paddingBottom="@dimen/activity_vertical_margin"
+		android:paddingLeft="@dimen/activity_horizontal_margin"
+		android:paddingRight="@dimen/activity_horizontal_margin"
+		android:paddingTop="@dimen/activity_vertical_margin">
+
+
+		<Button android:id="@+id/btn_login" android:text="@string/login_label"
+			android:textColor="#FFFFFF" android:textSize="22sp"
+			android:layout_centerHorizontal="true"
+			android:onClick="loginToRest"   android:layout_margin="20dp" 
+			android:layout_width="match_parent" android:layout_height="60dp"
+			android:background="@drawable/buttonshape" android:shadowColor="#A8A8A8"
+			android:shadowDx="0" android:shadowDy="0" android:shadowRadius="5" />
+
+
+	</RelativeLayout>
+
+</FrameLayout>
+
+
+		<!--  Button android:layout_width="match_parent"
+			android:layout_height="wrap_content" 
+			android:layout_centerHorizontal="true"
+			android:layout_margin="20dp" android:onClick="loginToRest"
+			android:text="@string/login_label" />  -->
